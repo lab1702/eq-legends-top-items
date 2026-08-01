@@ -93,21 +93,44 @@ This is a reference someone reads while playing, so:
    curated and updated on a stated bi-weekly cadence.
 3. [EverQuest Guides farm list](https://www.everquestguides.com) — the best community
    camp-by-camp source; beta-era, so treat drop locations as strong leads.
-4. In-game general chat and the EQL Discord — freshest, least verified.
+4. [EQProgression](https://www.eqprogression.com/legends/exaltations/) — mechanics-focused,
+   decent on Exaltation rules.
+5. In-game general chat, the EQL Discord, and reddit — freshest, least verified. Note that
+   reddit can't be fetched by Claude Code's web tools; a human has to read it.
+
+**Two traps when sourcing:**
+
+- **`eqlegends.wiki` and `everquestlegends.wiki` are not the tier-1 wiki.** Only `eqlwiki.com`
+  is. The other two look like content farms recycling each other — three sites agreeing is
+  one source, not three.
+- **Searches for legacy items return classic EQ (1999), not EQL,** at the top of the results:
+  Project 1999, Allakhazam, Project Quarm, usenet. The `eqlwiki` pages themselves inherit
+  some of these notes. The phrase **"on Live"** is the reliable tell that a note is about
+  classic EQ.
 
 ## Open questions to resolve
 
-- **Journeyman's Boots have two claimed sources.** The wiki documents only the Hasten
-  Bootstrutter quest in Rathe Mountains and says Drelzna stopped dropping them in Oct 1999.
-  The community farm list says Drelzna in Najena drops a "JBoots-type" item at 19–25. Both
-  could be true in a reimagined game. Needs someone to confirm in-game.
+- **Journeyman's Boots — does Drelzna drop them in EQL?** Narrowed but not closed (checked
+  2026-08-01). The `eqlwiki` **item** page lists Drops From → Najena → Drelzna with no "no
+  longer drops" flag; the **Drelzna** page lists them at 20% rare *and* carries a "made a
+  quest on October 13, 1999 on Live" note. So the wiki contradicts itself, and the note is
+  classic-EQ inheritance rather than an EQL claim. Drelzna is level 25 in Najena at
+  `(-35, -222)`, necromancer placeholder in the middle room, ~18.5–19 min respawn — so this
+  is cheap to settle: camp her and watch. The doc flags both routes rather than picking.
 - **Legacy item status.** Manastone, Guise of the Deceiver, and Fungus Covered Great Staff
   are all tagged "no longer drops" on the wiki. Verify each independently — see above re:
-  inherited classic-EQ data.
-- **Exaltation extraction threshold.** Sources say +2, +4, or higher. The doc currently
-  advises budgeting +4. Pin down the real number.
+  inherited classic-EQ data. **Not yet re-checked**; the Journeyman's Boots finding above
+  suggests these flags deserve the same page-vs-page scrutiny.
 - **Ignite proc damage.** One parse (level-40 Nagafen kill, 8 procs, 64 damage) is the only
-  data point. Weak.
+  data point. Weak, and no wiki will settle it — this needs someone to post a log.
+
+### Resolved
+
+- **Exaltation extraction threshold** (2026-08-01). It's per *effect type*, not one number,
+  which is why sources appeared to disagree: **Focus +1, Click +2, Worn +3, Proc +4**, per
+  the [Exaltations page](https://eqlwiki.com/Exaltations). Also documented there: an
+  Exaltation keeps its source item's slot restriction, and the destination item's usable
+  classes narrow to the overlap. Wiki-documented, not yet in-game verified.
 
 ## Context
 

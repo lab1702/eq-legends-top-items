@@ -10,6 +10,12 @@
 
 EQL's **Exaltation** system is the reason this list looks the way it does. You can level an item (+1 through +10), then extract its click, proc, or focus effect and socket it into a different item you actually want to wear. So a mediocre wand with a great click is worth farming purely as a donor. Two rules trip people up: you must be able to *equip* the donor item with one of your three classes, and both the donor and destination need to share a class or the mote is wasted.
 
+**How far you have to level a donor depends on the effect type, not on the item.** The [Exaltations wiki page](https://eqlwiki.com/Exaltations) gives four separate thresholds — a **focus** effect comes out at **+1**, a **click** at **+2**, a **worn** effect at **+3**, and a **proc** at **+4**.
+
+This resolves the "+2 or +4?" argument you'll see in chat — both camps were right about different effect types. Practical consequence: a focus donor is cheap (one level), a proc donor is the expensive case. Don't budget +4 across the board or you'll overpay by three levels on every focus item.
+
+Two further wiki-documented rules on the destination side: an Exaltation carries **the equipment slot restriction of its source item** (so a two-hander's proc lands in Primary only), and once inserted, the destination item's usable classes **narrow to the overlap** with the Exaltation's classes.
+
 Higher difficulty tiers don't change the loot table — they change merge value. D0 = 1 point, D1 = 2, D2 = 4, D3 = 8, D4 = 16. A D4 drop is worth sixteen D0 drops when pushing toward +10.
 
 ---
@@ -18,7 +24,7 @@ Higher difficulty tiers don't change the loot table — they change merge value.
 
 | Item | Description | How to Obtain |
 |---|---|---|
-| **Journeyman's Boots ("JBoots")** | FEET, AC 1, ALL/ALL, NO DROP. Instant-cast run speed click, usable from any slot (inventory included, but not from inside a bag). Outdoor use only. The fix for any trio without a run-speed class. | Quest from **Hasten Bootstrutter**, a wandering gnome on the east side of Rathe Mountains. Turn in: Ring of the Ancients (rare drop from an Ancient Cyclops in Southern Desert of Ro or Ocean of Tears island 8), a Shadowed Rapier (from "a shadowed man" — NO RENT, vanishes ~30 min after logout), and **exactly 3,250 gold pieces** (gold coins, not platinum). No level minimum but realistically 32+ solo, 42+ comfortable. Multi-questable — players sell the MQ as a service. Community reports also mention a JBoots-type drop off **Drelzna** in Najena (19–25). |
+| **Journeyman's Boots ("JBoots")** | FEET, AC 1, ALL/ALL, NO DROP. Instant-cast run speed click, usable from any slot (inventory included, but not from inside a bag). Outdoor use only. The fix for any trio without a run-speed class. | Quest from **Hasten Bootstrutter**, a wandering gnome on the east side of Rathe Mountains. Turn in: Ring of the Ancients (rare drop from an Ancient Cyclops in Southern Desert of Ro or Ocean of Tears island 8), a Shadowed Rapier (from "a shadowed man" — NO RENT, vanishes ~30 min after logout), and **exactly 3,250 gold pieces** (gold coins, not platinum). No level minimum but realistically 32+ solo, 42+ comfortable. Multi-questable — players sell the MQ as a service. **Possible second source, and the wiki contradicts itself on it:** the [item page](https://eqlwiki.com/Journeyman%27s_Boots) lists Drops From → Najena → **Drelzna** with no "no longer drops" flag, and the [Drelzna page](https://eqlwiki.com/Drelzna) lists the boots at a **20% rare** drop — but that same page adds that they "formerly dropped from this mob before being made a quest on October 13, 1999 **on Live**," which is classic-EQ history, not an EQL statement. Drelzna is a level 25 Dark Elf SK in **Najena** at `(-35, -222)`; her placeholder is a necromancer in the middle room, respawn ~18.5–19 min. Her level fits the community farm list's 19–25 claim. If she does drop them in EQL, this is a far cheaper route than the quest — **worth ten minutes of camping to check before you farm 3,250 gold.** |
 | **Manastone** | PRIMARY/SECONDARY, instant click, converts 60 HP → 20 mana with no cooldown. Legendary for chain-casting and for kiting builds. Wiki carries a **NERF ALERT** tag. | **No longer obtainable.** Historically dropped from An Evil Eye in Lower Guk; the wiki lists it as no longer dropping. Legacy item only. |
 | **Guise of the Deceiver** | FACE, AC 4, CHA +13, SV MAGIC +7. Illusion: Dark Elf (6.0s cast). This is the pre-nerf version — **any class can click it** in EQL, and it shrinks an ogre. NO DROP. | Ghoul assassin at the top of the tower in **Lower Guk**, ~60–70% drop. Level range 30–35. Wiki lists it as no longer dropping — contested, verify in-game. |
 | **Fungus Covered Great Staff** | PRIMARY, 2H Blunt 18/35, WIS +8 INT +8, CHA −10, SV Fire/Disease +5. Instant-cast Fungal Regrowth (the classic fungi regen). | Wiki lists it as **no longer dropping**. Another legacy item — worth knowing about, don't plan around it. |
@@ -28,7 +34,7 @@ Higher difficulty tiers don't change the loot table — they change merge value.
 
 ## Best Clickies and Focus Effects (the ones that follow you to 50)
 
-These are the "farm the effect, not the item" picks. Budget getting each to **+4** before extraction.
+These are the "farm the effect, not the item" picks. Level each to the threshold for its effect type before extracting — **+1** for a focus, **+2** for a click, **+4** for a proc (see above). Most of this section is focus and click effects, so the majority are cheaper donors than the old "budget +4 for everything" advice implied.
 
 | Item | Description | How to Obtain |
 |---|---|---|
@@ -124,6 +130,8 @@ The reason so many instant clickies show up on best-in-slot lists isn't the effe
 ## Caveats
 
 - **This game is four days old.** Item stats, drop rates, and whether legacy items still drop are all in flux. The EQL Wiki is explicitly in beta and flags several items as "no longer drops" — some of those are contested.
+- **Watch for classic-EQ answers to EQL questions.** Searching any legacy item name returns Project 1999, Allakhazam, Project Quarm, and 1999-era usenet threads at the *top* of the results. They look authoritative and describe a different game. The tell is a date or the phrase "on Live" — the EQL wiki itself inherits some of these notes, which is how a page can list a 20% drop rate and a "made a quest in 1999" note at the same time (see Journeyman's Boots).
+- **Three different sites call themselves the EQL wiki** — `eqlwiki.com`, `eqlegends.wiki`, and `everquestlegends.wiki`. Only the first is the one this document treats as tier 1. The others appear to be content farms that recycle each other, so agreement between them is not independent confirmation of anything.
 - **Beta wiped July 21**, so everything above is a launch target, not something people currently have banked.
 - **Procs were broken through most of beta** and got fixed July 14. Ignite in particular fires correctly but lands small (~8 damage a hit).
 - **Motes stopped being tradable July 14** — everyone farms their own.
