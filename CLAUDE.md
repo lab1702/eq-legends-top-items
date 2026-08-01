@@ -148,14 +148,18 @@ This is a reference someone reads while playing, so:
 
 ### Resolved
 
-- **Legacy item status — the three items don't share one status** (2026-08-01). The old
-  question assumed a single "no longer drops" flag applied to all three. It doesn't:
-  **Fungus Covered Great Staff** is explicitly flagged No Longer Drops (used to come from the
-  myconid spore king in Old Sebilis — and that zone *is* implemented, Kunark era, L48–60, so
-  it isn't pending content); **Guise of the Deceiver** has no documented source of any kind;
-  **Manastone** has only "no confirmed sightings" with its source still listed. The doc had
-  flattened all three into one phrase and stated the Manastone case more strongly than the
-  source supports. What remains is now tracked as two narrower questions above.
+- **Legacy item status — the items don't share one status** (2026-08-01). The old question
+  assumed a single "no longer drops" flag applied to all three. It doesn't: **Guise of the
+  Deceiver** has no documented source of any kind, while **Manastone** has only "no confirmed
+  sightings" with its source still listed. The doc had flattened them into one phrase and
+  stated the Manastone case more strongly than the source supports. Both remaining cases are
+  tracked as narrower questions above. The third item, **Fungus Covered Great Staff**, was
+  removed from the doc entirely — its source zone is Out of Era (see below).
+  **Correction worth recording:** an earlier pass claimed the Fungus staff's "No Longer Drops"
+  flag could not be explained by unimplemented content, on the grounds that Old Sebilis "is
+  implemented, Kunark era." That was a misreading of **"Out of Era,"** which means the opposite
+  of what it looks like — the zone is *not* accessible. So pending content is in fact the most
+  likely explanation for that flag.
 - **Exaltation extraction threshold** (2026-08-01). It's per *effect type*, not one number,
   which is why sources appeared to disagree: **Focus +1, Click +2, Worn +3, Proc +4**, per
   the [Exaltations page](https://eqlwiki.com/Exaltations). Also documented there: an
@@ -165,6 +169,17 @@ This is a reference someone reads while playing, so:
 ## Context
 
 Game mechanics that shape which items matter, for anyone picking this up cold:
+
+- **Scope: Classic era plus the Planes. Nothing else is in the game.** EQL launched
+  2026-07-28 with Classic content; the [News page](https://eqlwiki.com/News) says to "assume
+  that Kunark and Velious content will not be present immediately." On the
+  [Zones page](https://eqlwiki.com/Zones), those expansions are listed under
+  **"Out of Era."** **That label means not currently accessible** — it reads like "available
+  but off-era" and it is not. Kunark and Velious *item* pages look entirely normal, with
+  stats and named drop sources, so the item page alone will happily lead you to farm a zone
+  you cannot enter. **Before adding any item, check its zone's era.** Confirmed Out of Era so
+  far: Lake of Ill Omen, Warsliks Woods, Old Sebilis (Kunark), Iceclad Ocean (Velious).
+  The Hole is *not* — it's Odus, and playable.
 
 - Characters run **up to three simultaneous classes**; an item is usable if any of the three
   qualifies. This is why class restrictions matter less than in classic EQ.
