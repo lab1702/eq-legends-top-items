@@ -1,6 +1,6 @@
 # EverQuest Legends — Community-Recommended Items
 
-*Compiled August 1, 2026. EQL launched July 28, 2026, so much of this is beta-era and launch-week community knowledge. Drop rates, camps, and item stats are still being verified — treat locations as starting points, not gospel.*
+*Compiled August 1, 2026, and wiki-checked the same day. EQL launched July 28, 2026, so most of this is beta-era and launch-week community knowledge. Where a claim has been checked against the wiki it says so and links the page; everything else is a starting point, not gospel. See Caveats for what was verified and what's still open.*
 
 **Sources:** [EQL Wiki](https://eqlwiki.com), [EQ Legends Tools](https://eqlegendstools.com), [EverQuest Guides farm list](https://www.everquestguides.com), AllThingsHow launch guide.
 
@@ -129,7 +129,8 @@ The reason so many instant clickies show up on best-in-slot lists isn't the effe
 
 ## Caveats
 
-- **This game is four days old.** Item stats, drop rates, and whether legacy items still drop are all in flux. The EQL Wiki is explicitly in beta and flags several items as "no longer drops" — some of those are contested.
+- **Last checked against the wiki: August 1, 2026.** That pass verified the Exaltation extraction thresholds, the three legacy-item flags, the Journeyman's Boots drop question, and the Ignite damage figure — and corrected the doc on the last three. **Everything not named in these Caveats is still launch-week community knowledge that nobody has re-checked.** Four claims remain open and need someone in-game rather than another source: whether Drelzna actually drops JBoots, whether An Evil Eye still drops the Manastone, whether the Guise has any route at all, and what Ignite hits an ordinary mob for.
+- **This game is four days old** (launched July 28, 2026). Item stats, drop rates, and whether legacy items still drop are all in flux. The EQL Wiki is explicitly in beta and flags several items as "no longer drops" — and as below, those flags don't all mean the same thing.
 - **"Legacy item" covers three different situations, and people say it as if it were one.** Checked 2026-08-01: the Fungus Covered Great Staff is explicitly flagged **No Longer Drops**; the Guise of the Deceiver has **no documented source of any kind** (not dropped, not sold, no quest, not crafted); the Manastone merely has **no confirmed sightings** while its drop source is still listed. Only the first is settled. Treat "it doesn't drop anymore" as a claim needing a source, not a fact.
 - **Watch for classic-EQ answers to EQL questions.** Searching any legacy item name returns Project 1999, Allakhazam, Project Quarm, and 1999-era usenet threads at the *top* of the results. They look authoritative and describe a different game. The tell is a date or the phrase "on Live" — the EQL wiki itself inherits some of these notes, which is how a page can list a 20% drop rate and a "made a quest in 1999" note at the same time (see Journeyman's Boots).
 - **Wiki pages are demonstrably incomplete, so absence of information isn't evidence.** Concrete example: the Ignite page lists only two weapons carrying the proc and omits the Shimmering Ruby Stiletto, which its own item page confirms has it. When a page doesn't mention a source, that's as likely to be a gap as a fact.
