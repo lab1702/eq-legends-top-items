@@ -100,18 +100,20 @@ These are the "farm the effect, not the item" picks. Level each to the threshold
 
 ---
 
-## Utility Clickies (all classes, cheap to get)
+## Utility Clickies
+
+Sources filled in from the wiki 2026-08-01, and the results contradict how this section used to be labelled. It was headed "all classes, cheap to get" — **neither half held up.** Two of these items aren't drops at all but epic-length questlines, one is in a planar raid zone, and the sources run out into Kunark and Velious rather than sitting in low-level classic dungeons. Class restrictions vary too, so read the middle column instead of assuming all-class. The *effects* are still the point; the acquisition cost is just much wider than "cheap" implied. No drop rates are documented for any of these.
 
 | Item | Description | How to Obtain |
 |---|---|---|
-| **Bracer of the Hidden** | WRIST, AC 6. See Invisible, instant, must equip, level 10+. ALL/ALL. | Drops (still available per wiki). |
-| **Goblin Gazughi Ring** | FINGER, AC 1, SV MAGIC +5. Invisibility versus Animals, instant, level 5+. Great for sneaking past outdoor zones. | Drops (still available per wiki). |
-| **Shrunken Goblin Skull Earring** | EAR, AC 3. Instant Grim Aura at level 15+. Mostly valued as a **global-cooldown reset** — click it right after a spell to immediately start casting the next one. Also useful to eat dispels. | Drops (still available per wiki). |
-| **Amulet of Necropotence** | NECK, INT +13, HP −100, SV MAGIC +10. Illusion: Skeleton, instant. ENC/MAG/NEC/WIZ. | Drops (still available per wiki). |
-| **Pegasus Feather Cloak** | SHOULDERS, AC 6, DEX +7. Levitate (6.0s cast). ALL/ALL, NO DROP. | Drops (still available per wiki). |
-| **Black Fur Boots** | FEET, AC 9, +3 STR/STA/WIS/AGI, resists. **Instant-cast Spirit of Wolf** at level 10+. Shaman only (BAR/TRL/OGR/IKS). | Drops. The shaman's answer to JBoots. |
-| **SoulFire** | PRIMARY, 2H Slashing 23/45, STR +7 WIS +7. Instant Promised Renewal, unlimited charges, level 40+. Paladin only. | Drops (still available per wiki). |
-| **Lodizal Shell Boots** | FEET, AC 14, STR +7, HP +20. Turtle Skin click. WAR/PAL/RNG/SK/BRD/ROG. | Drops. |
+| **Bracer of the Hidden** | WRIST, AC 6. See Invisible, instant, must equip, level 10+. ALL/ALL. | **a Sarnak legionnaire** in **Lake of Ill Omen** — a Kunark zone, so this is not an early-game pickup. Trash mob rather than a named, but no rate documented. |
+| **Goblin Gazughi Ring** | FINGER, AC 1, SV MAGIC +5. Invisibility versus Animals, instant, level 5+. Great for sneaking past outdoor zones. | **a Sarnak courier** in **Lake of Ill Omen** (Kunark). The wiki explicitly warns "it may take a while to get this to drop," which is the closest thing to a rate it gives — plan on a long camp. |
+| **Shrunken Goblin Skull Earring** | EAR, AC 3. Instant Grim Aura at level 15+. Mostly valued as a **global-cooldown reset** — click it right after a spell to immediately start casting the next one. Also useful to eat dispels. | **Grachnist the Destroyer** in **Warsliks Woods** (Kunark). A named, so expect a spawn timer rather than a grind. |
+| **Amulet of Necropotence** | NECK, INT +13, HP −100, SV MAGIC +10. Illusion: Skeleton, instant. ENC/MAG/NEC/WIZ. | **Fright**, **Dread**, or **Terror** in the **Plane of Fear** — three chances at it, but this is planar raid content, not a solo camp. The wiki notes it came from **Cazic Thule** himself pre-revamp. |
+| **Pegasus Feather Cloak** | SHOULDERS, AC 6, DEX +7. Levitate (6.0s cast). ALL/ALL, NO DROP. | **Quillmane** in **Southern Karana**. Classic-era and the most accessible source in this section. No rate or spawn detail documented on the wiki — if you know Quillmane's reputation from classic EQ, treat that as unverified here. |
+| **Black Fur Boots** | FEET, AC 9, +3 STR/STA/WIS/AGI, resists. **Instant-cast Spirit of Wolf** at level 10+. Shaman only (BAR/TRL/OGR/IKS). | **Not a drop** — the wiki says plainly "this item is not dropped by mobs" and lists it as the **Shaman Epic** reward. Still the shaman's answer to JBoots, but it's an epic questline, so don't file it under cheap. |
+| **SoulFire** | PRIMARY, 2H Slashing 23/45, STR +7 WIS +7. Instant Promised Renewal, unlimited charges, level 40+. Paladin only. | **Not a drop** — quest-obtained. The wiki lists two related quests: **The Fiery Avenger** and **Zimel's Blades (SoulFire)**. Consistent with the level 40+ requirement; budget a questline, not a camp. |
+| **Lodizal Shell Boots** | FEET, AC 14, STR +7, HP +20. Turtle Skin click. WAR/PAL/RNG/SK/BRD/ROG. | **Lodizal** in **Iceclad Ocean** — a named, and a Velious zone, so this is the deepest-content item in the section. No rate documented. |
 
 ---
 
@@ -129,7 +131,7 @@ The reason so many instant clickies show up on best-in-slot lists isn't the effe
 
 ## Caveats
 
-- **Last checked against the wiki: August 1, 2026.** That pass verified the Exaltation extraction thresholds, the three legacy-item flags, the Journeyman's Boots drop question, and the Ignite damage figure — and corrected the doc on the last three. **Everything not named in these Caveats is still launch-week community knowledge that nobody has re-checked.** Four claims remain open and need someone in-game rather than another source: whether Drelzna actually drops JBoots, whether An Evil Eye still drops the Manastone, whether the Guise has any route at all, and what Ignite hits an ordinary mob for.
+- **Last checked against the wiki: August 1, 2026.** That pass verified the Exaltation extraction thresholds, the three legacy-item flags, the Journeyman's Boots drop question, and the Ignite damage figure — and corrected the doc on the last three. It also filled in real sources for every item in **Utility Clickies**, where the whole column previously just said "Drops"; two of those turned out to be epic questlines rather than drops, and the section's old "cheap to get" label didn't survive. **Everything not named in these Caveats is still launch-week community knowledge that nobody has re-checked.** Four claims remain open and need someone in-game rather than another source: whether Drelzna actually drops JBoots, whether An Evil Eye still drops the Manastone, whether the Guise has any route at all, and what Ignite hits an ordinary mob for.
 - **This game is four days old** (launched July 28, 2026). Item stats, drop rates, and whether legacy items still drop are all in flux. The EQL Wiki is explicitly in beta and flags several items as "no longer drops" — and as below, those flags don't all mean the same thing.
 - **"Legacy item" covers three different situations, and people say it as if it were one.** Checked 2026-08-01: the Fungus Covered Great Staff is explicitly flagged **No Longer Drops**; the Guise of the Deceiver has **no documented source of any kind** (not dropped, not sold, no quest, not crafted); the Manastone merely has **no confirmed sightings** while its drop source is still listed. Only the first is settled. Treat "it doesn't drop anymore" as a claim needing a source, not a fact.
 - **Watch for classic-EQ answers to EQL questions.** Searching any legacy item name returns Project 1999, Allakhazam, Project Quarm, and 1999-era usenet threads at the *top* of the results. They look authoritative and describe a different game. The tell is a date or the phrase "on Live" — the EQL wiki itself inherits some of these notes, which is how a page can list a 20% drop rate and a "made a quest in 1999" note at the same time (see Journeyman's Boots).
