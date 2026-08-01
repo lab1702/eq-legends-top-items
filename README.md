@@ -1,6 +1,6 @@
 # EverQuest Legends — Community-Recommended Items
 
-A living reference of **46 items** worth chasing in [EverQuest Legends](https://eqlwiki.com),
+A living reference of **39 items** worth chasing in [EverQuest Legends](https://eqlwiki.com),
 covering what each one does and how to get it. The markdown source is rendered to a
 self-contained HTML page with a live filter over item names, zones, mobs, and effects.
 
@@ -9,18 +9,23 @@ self-contained HTML page with a live filter over item names, zones, mobs, and ef
 > points. Contradictions between sources are flagged in the document rather than silently
 > resolved.
 
+**Everything listed is reachable today.** EQL launched with Classic-era content and the
+Planes; Kunark, Velious, and all class epic quests are flagged "Out of Era" on the wiki, which
+means not yet accessible. Items sourced from that content have been removed rather than listed
+with a caveat, because their wiki pages look entirely normal and will happily send you to farm
+a zone you can't enter.
+
 ## What's in it
 
 | Section | Covers |
 |---|---|
 | Why people chase these | The Exaltation system and difficulty-tier merge math |
 | The Big Ones | Classic legacy items — Manastone, Guise, Journeyman's Boots |
-| Best Clickies and Focus Effects | Effects worth carrying to 50 |
+| Best Clickies and Focus Effects | Effects worth carrying to 50, plus utility clicks |
 | Early Armor | Low-level pieces worth a detour |
 | Weapons | Procs, damage, and donor candidates |
-| Utility Clickies | Cheap, all-class quality-of-life |
 | Instant-Clicky Tricks | Timing and cast-time exploits |
-| Caveats | What's contested, and as of when |
+| Caveats | What's contested, what was verified, and as of when |
 
 ## Reading it
 
