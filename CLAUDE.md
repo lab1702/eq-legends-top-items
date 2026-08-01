@@ -60,7 +60,11 @@ inherited from the upstream sources listed below. `LICENSE-DOCS.md` spells this 
 The parser in `rebuild.py` is deliberately small and will silently produce wrong output if
 these break:
 
-- Item tables have **exactly three columns**: `Item | Description | How to Obtain`.
+- **Tables are for items only, and have exactly three columns**: `Item | Description | How to
+  Obtain`. Don't add a table for anything else — put mechanics, thresholds, and comparisons in
+  prose or a `- ` list. The parser hard-codes three cells per row, so a two-column table
+  renders a mismatched `<thead>`, and *every* table row counts toward the "N items" figure in
+  the filter bar, so a four-row mechanics table silently inflates the item count by four.
 - `## ` headings become numbered sections and nav links. `### ` are subheadings inside a
   section and get no nav entry.
 - The **first paragraph** after the H1 becomes the page lede; the **second** becomes the
