@@ -12,6 +12,8 @@ page with a live filter.
 | `rebuild.py` | Regenerates the HTML from the markdown. |
 | `eqlegends-recommended-items.html` | Generated, but **committed** — it's the deployable artifact. Dark EQ-tooltip theme, live filter, mobile cards. |
 | `requirements.txt` | Python dependencies for `rebuild.py`. |
+| `LICENSE` | MIT — covers the code. |
+| `LICENSE-DOCS.md` | CC BY 4.0 — covers the reference content. |
 
 **Always work in a virtual environment** — never install into the system Python. Create it
 once, then activate it in every new shell before rebuilding:
@@ -42,6 +44,21 @@ dropped straight onto a static host, so **rebuild and commit it in the same comm
 markdown edit**, or the deployed page drifts from the source. It's fully self-contained
 except for the Google Fonts link in `<head>`; without network access the page falls back to
 system serif/mono and still works.
+
+## License
+
+Split, because the two halves of this repo are different kinds of work:
+
+- **Code** (`rebuild.py`) — MIT. See [LICENSE](LICENSE).
+- **Content** (`eqlegends-recommended-items.md` and the generated HTML) — CC BY 4.0. See
+  [LICENSE-DOCS.md](LICENSE-DOCS.md).
+
+The CC BY attribution line is rendered into the page footer by `build_screen_html()`, so it
+travels with the deployed HTML. If you change the footer, keep the license link — attribution
+is the one condition CC BY imposes.
+
+Note that CC BY covers the editorial work, not the underlying facts, and not passages
+inherited from the upstream sources listed below. `LICENSE-DOCS.md` spells this out.
 
 ## Markdown conventions the renderer depends on
 

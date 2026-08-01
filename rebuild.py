@@ -286,7 +286,11 @@ def build_screen_html(blocks):
 <div class="wrap">
   {''.join(out)}
   <div class="empty" id="empty">No item matches that. Try a zone name, a mob, or an effect.</div>
-  <footer>Regenerated from the markdown source &middot; verify drops in&nbsp;game</footer>
+  <footer>
+    Regenerated from the markdown source &middot; verify drops in&nbsp;game<br>
+    Text licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+    &middot; unofficial fan reference, not affiliated with the publisher
+  </footer>
 </div>
 <script>{SCREEN_JS}</script>
 </body>
