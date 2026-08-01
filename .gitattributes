@@ -1,0 +1,11 @@
+# Make line-ending handling explicit rather than dependent on each contributor's
+# core.autocrlf setting. Everything here is text; normalize to LF in the repo.
+* text=auto
+
+# Check these out as LF on every platform. rebuild.py writes CRLF on Windows,
+# which git still normalizes to LF in the index — so a rebuild that changes
+# nothing substantive won't show up as a modified file.
+*.html text eol=lf
+*.py    text eol=lf
+*.md    text eol=lf
+*.txt   text eol=lf
