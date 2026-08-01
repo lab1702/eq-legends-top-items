@@ -12,6 +12,7 @@ page with a live filter.
 | `rebuild.py` | Regenerates the HTML from the markdown. |
 | `eqlegends-recommended-items.html` | Generated, but **committed** — it's the deployable artifact. Dark EQ-tooltip theme, live filter, mobile cards. |
 | `requirements.txt` | Python dependencies for `rebuild.py`. |
+| `README.md` | Repo landing page. Hand-written — not generated. |
 | `LICENSE` | MIT — covers the code. |
 | `LICENSE-DOCS.md` | CC BY 4.0 — covers the reference content. |
 
