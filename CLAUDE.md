@@ -130,6 +130,13 @@ This is a reference someone reads while playing, so:
   not dropped, not sold, no quest, not crafted. Either it's genuinely unobtainable in EQL or
   the page is incomplete. Also **its class restriction is contested** — wiki says BRD/ROG,
   community describes the all-class pre-nerf version.
+- **Footman's Blade — does this item exist in EQL under this name?** The wiki 404s on it
+  (checked 2026-08-01). A search summary claimed it was renamed to *The Baron's Blade*, but
+  the [Patch Notes](https://eqlwiki.com/Patch_Notes) do not mention any such rename and the
+  Baron's Blade page doesn't reference a former name — so that claim is unsupported and was
+  not written into the doc. Complicating it, the doc describes a level-15 mob while Baron
+  Telyx V\`Zher is a named boss, so they're probably different items. Someone needs to look
+  in-game or find the right wiki page.
 - **Ignite proc damage — needs one parse against a non-fire mob.** Narrowed (2026-08-01). The
   wiki lists Ignite at **38 (L8) to 46 (L16)**, resist type Fire, capping at L16 — so the
   circulating "~8 a hit" figure conflicts with the documented value by ~5x. The single parse
