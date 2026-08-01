@@ -130,6 +130,14 @@ This is a reference someone reads while playing, so:
   not dropped, not sold, no quest, not crafted. Either it's genuinely unobtainable in EQL or
   the page is incomplete. Also **its class restriction is contested** — wiki says BRD/ROG,
   community describes the all-class pre-nerf version.
+- **Rune Totem Staff — same problem as Footman's Blade.** No wiki page under that name
+  (checked 2026-08-01), so its effects, stats, and the name itself are all unverified. Its row
+  is the thinnest in the document.
+- **Does the Rubicite regen really work from any slot?** The community claim is that its
+  HP Regen 6 works from any slot once extracted, but the
+  [Exaltations page](https://eqlwiki.com/Exaltations) says an Exaltation keeps its source
+  item's slot restriction — and the breastplate is CHEST. Both are in the doc, flagged as
+  disagreeing.
 - **Footman's Blade — does this item exist in EQL under this name?** The wiki 404s on it
   (checked 2026-08-01). A search summary claimed it was renamed to *The Baron's Blade*, but
   the [Patch Notes](https://eqlwiki.com/Patch_Notes) do not mention any such rename and the
