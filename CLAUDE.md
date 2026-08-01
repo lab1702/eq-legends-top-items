@@ -180,6 +180,13 @@ Game mechanics that shape which items matter, for anyone picking this up cold:
   you cannot enter. **Before adding any item, check its zone's era.** Confirmed Out of Era so
   far: Lake of Ill Omen, Warsliks Woods, Old Sebilis (Kunark), Iceclad Ocean (Velious).
   The Hole is *not* — it's Odus, and playable.
+- **Quests carry their own era flag, independent of their zones.** **All class epics are Out of
+  Era** ([Class Epic Quest List](https://eqlwiki.com/Class_Epic_Quest_List) is headed "Epic
+  Quests Era: Out of Era"). The Paladin epic is the instructive case: every zone it touches is
+  Classic, and the quest is still gated. So checking zone eras is *not sufficient* — open the
+  quest page and look for its own flag. This also catches quests that don't look epic but sit
+  under that umbrella, e.g. **The Sword of Nobility**, the Ghoulbane quest route. Confirmed in
+  era: the Journeyman's Boots quest, Lynuga's Gem Collection.
 
 - Characters run **up to three simultaneous classes**; an item is usable if any of the three
   qualifies. This is why class restrictions matter less than in classic EQ.
