@@ -153,6 +153,19 @@ This is a reference someone reads while playing, so:
 
 ### Resolved
 
+- **Mob and zone audit** (2026-08-01). Ran after the item-name audit and found the same error
+  rate. **5 more mob names wrong** — Asaka L\`Rei (was "Asszrkalar", absent from Befallen),
+  Korven Nisere (the doc had split one NPC into two and warned against confusing them),
+  a Tesch Val Brute, Ambassador DVinn, and Noble Dojorn / Overseer of Air replacing "three
+  Efreeti". **Two structural findings:** the doc's level ranges were *camp* advice presented as
+  zone ranges — the wiki's "Level of Monsters" is Crushbone 5–20, Blackburrow 4–15+, Befallen
+  7–25+, RunnyEye Citadel 7–30+, Najena 8–35, Splitpaw Lair 20–40, Lower Guk 30–50+, The Hole
+  39–56 — and Splitpaw's "fast/middle/deep bands" are not a real thing (its camps are Double
+  Doors, Executioner/Judges, Ishva). Also: **Master Yael is Raid Instance Only**, so the
+  Earthshaker is not campable at all. **Note one regression I introduced and then fixed:** the
+  previous commit changed "Runny Eye Citadel" to "Clan Runnyeye" on the strength of an item
+  page using the old name — the zone's current name is **RunnyEye Citadel**. When an item page
+  and a zone page disagree on a zone's name, the zone page wins.
 - **Full name audit — all 39 items checked against the wiki** (2026-08-01). Findings, because
   the *rate* matters more than the individual fixes: **7 item names wrong, 6 mob names wrong,
   2 zones wrong, 6 stat blocks wrong**, across roughly a third of the document. One entry was
