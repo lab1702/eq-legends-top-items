@@ -130,9 +130,6 @@ This is a reference someone reads while playing, so:
   not dropped, not sold, no quest, not crafted. Either it's genuinely unobtainable in EQL or
   the page is incomplete. Also **its class restriction is contested** — wiki says BRD/ROG,
   community describes the all-class pre-nerf version.
-- **Rune Totem Staff — same problem as Footman's Blade.** No wiki page under that name
-  (checked 2026-08-01), so its effects, stats, and the name itself are all unverified. Its row
-  is the thinnest in the document.
 - **Does the Rubicite regen really work from any slot?** The community claim is that its
   HP Regen 6 works from any slot once extracted, but the
   [Exaltations page](https://eqlwiki.com/Exaltations) says an Exaltation keeps its source
@@ -156,6 +153,15 @@ This is a reference someone reads while playing, so:
 
 ### Resolved
 
+- **"Rune Totem Staff off Kerak Splitpaw" doesn't exist** (2026-08-01). Removed. Five checks
+  all came back empty: item page 404, mob page 404, no Kerak among the named mobs on the
+  Splitpaw Lair page, no staff in Verishe Mal Executioner's loot table, and no site-search hit
+  for either name. The only genuine detail was the Executioner — **Verishe Mal Executioner**,
+  L42, `(1171, 113)`. Replaced with the **Gnoll Hide Tome** (Rosch Val L'Vlor, Splitpaw Lair),
+  which is documented. **The lesson is the one worth keeping:** that row named a plausible item
+  and a plausible mob, sat unremarked among correct entries, and was fabricated end to end. A
+  row being specific is not evidence it is true — the two other rows still resting on nothing
+  but community reports are Footman's Blade and the Guise camp details.
 - **Legacy item status — the items don't share one status** (2026-08-01). The old question
   assumed a single "no longer drops" flag applied to all three. It doesn't: **Guise of the
   Deceiver** has no documented source of any kind, while **Manastone** has only "no confirmed
