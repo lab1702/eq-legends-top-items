@@ -1,0 +1,110 @@
+# EQ Legends Item Reference
+
+A living reference of community-recommended items in **EverQuest Legends** (launched
+2026-07-28) — what each item does and how to get it. Rendered to a single screen HTML
+page with a live filter.
+
+## Files
+
+| File | Role |
+|---|---|
+| `eqlegends-recommended-items.md` | **Source of truth.** Edit this and nothing else. |
+| `rebuild.py` | Regenerates the HTML from the markdown. |
+| `eqlegends-recommended-items.html` | Generated, but **committed** — it's the deployable artifact. Dark EQ-tooltip theme, live filter, mobile cards. |
+| `requirements.txt` | Python dependencies for `rebuild.py`. |
+
+**Always work in a virtual environment** — never install into the system Python. Create it
+once, then activate it in every new shell before rebuilding:
+
+```bash
+python3 -m venv .venv
+```
+
+Activate with `source .venv/bin/activate` (macOS/Linux) or `.venv\Scripts\Activate.ps1`
+(Windows PowerShell), then install:
+
+```bash
+python3 -m pip install -r requirements.txt
+```
+
+Rebuild with:
+
+```bash
+python3 rebuild.py eqlegends-recommended-items.md
+```
+
+`rebuild.py` is standard-library only — no third-party packages and no external binaries.
+`requirements.txt` is deliberately empty of packages; use it (and the venv) so the setup
+stays the same if a dependency shows up later.
+
+Don't hand-edit the .html — it gets overwritten. The .html is tracked in git so it can be
+dropped straight onto a static host, so **rebuild and commit it in the same commit as any
+markdown edit**, or the deployed page drifts from the source. It's fully self-contained
+except for the Google Fonts link in `<head>`; without network access the page falls back to
+system serif/mono and still works.
+
+## Markdown conventions the renderer depends on
+
+The parser in `rebuild.py` is deliberately small and will silently produce wrong output if
+these break:
+
+- Item tables have **exactly three columns**: `Item | Description | How to Obtain`.
+- `## ` headings become numbered sections and nav links. `### ` are subheadings inside a
+  section and get no nav entry.
+- The **first paragraph** after the H1 becomes the page lede; the **second** becomes the
+  sources line. Don't add a third paragraph before the first `## `.
+- Supported inline markup: `**bold**`, `*italic*`, `` `code` ``, `[text](url)`. Nothing
+  else — no images, no nested lists, no footnotes.
+- `---` horizontal rules are dropped from the HTML.
+
+The HTML filter indexes all three cells of every row, so zone names, mob names, and effect
+names in any column are searchable. Write them out in full rather than abbreviating.
+
+## Editorial standards
+
+This is a reference someone reads while playing, so:
+
+- **Attribute confidence.** Distinguish wiki-documented facts from "community reports say."
+  The game is new and a lot of circulating information is inherited from classic EQ (1999)
+  rather than verified in EQL.
+- **Prefer specifics over adjectives.** Coordinates, drop percentages, level ranges, and
+  placeholder mechanics are the useful part. "Really good item" is not.
+- **Flag contradictions rather than resolving them silently.** Where the wiki and the
+  community farm lists disagree, say so and name both.
+- Keep the Caveats section at the bottom current — it dates the whole document.
+
+## Source hierarchy
+
+1. [EQL Wiki](https://eqlwiki.com) — item stat blocks, quest walkthroughs. Explicitly in
+   BETA; some "no longer drops" flags are inherited from classic EQ and may be wrong.
+2. [EQ Legends Tools](https://eqlegendstools.com) — searchable clicky/focus/proc database,
+   curated and updated on a stated bi-weekly cadence.
+3. [EverQuest Guides farm list](https://www.everquestguides.com) — the best community
+   camp-by-camp source; beta-era, so treat drop locations as strong leads.
+4. In-game general chat and the EQL Discord — freshest, least verified.
+
+## Open questions to resolve
+
+- **Journeyman's Boots have two claimed sources.** The wiki documents only the Hasten
+  Bootstrutter quest in Rathe Mountains and says Drelzna stopped dropping them in Oct 1999.
+  The community farm list says Drelzna in Najena drops a "JBoots-type" item at 19–25. Both
+  could be true in a reimagined game. Needs someone to confirm in-game.
+- **Legacy item status.** Manastone, Guise of the Deceiver, and Fungus Covered Great Staff
+  are all tagged "no longer drops" on the wiki. Verify each independently — see above re:
+  inherited classic-EQ data.
+- **Exaltation extraction threshold.** Sources say +2, +4, or higher. The doc currently
+  advises budgeting +4. Pin down the real number.
+- **Ignite proc damage.** One parse (level-40 Nagafen kill, 8 procs, 64 damage) is the only
+  data point. Weak.
+
+## Context
+
+Game mechanics that shape which items matter, for anyone picking this up cold:
+
+- Characters run **up to three simultaneous classes**; an item is usable if any of the three
+  qualifies. This is why class restrictions matter less than in classic EQ.
+- **Exaltation:** level an item, extract its click/proc/focus effect, socket it into a
+  different item. Makes otherwise-mediocre items valuable as donors. Both donor and
+  destination must share a class with your build or the mote is lost.
+- **Difficulty tiers** (D0–D4) don't change loot tables, they change merge value:
+  D0=1, D1=2, D2=4, D3=8, D4=16 points toward +10.

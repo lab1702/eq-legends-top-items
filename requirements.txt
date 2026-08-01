@@ -1,0 +1,6 @@
+# Python dependencies for rebuild.py
+#
+#   python3 -m pip install -r requirements.txt
+#
+# rebuild.py is currently standard-library only, so this file lists no packages.
+# It's kept so the venv + install workflow stays the same if that changes.
