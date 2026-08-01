@@ -121,15 +121,27 @@ This is a reference someone reads while playing, so:
   classic-EQ inheritance rather than an EQL claim. Drelzna is level 25 in Najena at
   `(-35, -222)`, necromancer placeholder in the middle room, ~18.5–19 min respawn — so this
   is cheap to settle: camp her and watch. The doc flags both routes rather than picking.
-- **Legacy item status.** Manastone, Guise of the Deceiver, and Fungus Covered Great Staff
-  are all tagged "no longer drops" on the wiki. Verify each independently — see above re:
-  inherited classic-EQ data. **Not yet re-checked**; the Journeyman's Boots finding above
-  suggests these flags deserve the same page-vs-page scrutiny.
+- **Manastone — has anyone actually camped An Evil Eye?** This is what's left of the legacy
+  item question (see Resolved). The wiki still lists the drop source and says only "no
+  confirmed sightings," so the item may simply be rare and under-reported rather than removed.
+  One person reporting a clear result either way closes it.
+- **Guise of the Deceiver — is there any route to it?** The wiki documents no source at all:
+  not dropped, not sold, no quest, not crafted. Either it's genuinely unobtainable in EQL or
+  the page is incomplete. Also **its class restriction is contested** — wiki says BRD/ROG,
+  community describes the all-class pre-nerf version.
 - **Ignite proc damage.** One parse (level-40 Nagafen kill, 8 procs, 64 damage) is the only
   data point. Weak, and no wiki will settle it — this needs someone to post a log.
 
 ### Resolved
 
+- **Legacy item status — the three items don't share one status** (2026-08-01). The old
+  question assumed a single "no longer drops" flag applied to all three. It doesn't:
+  **Fungus Covered Great Staff** is explicitly flagged No Longer Drops (used to come from the
+  myconid spore king in Old Sebilis — and that zone *is* implemented, Kunark era, L48–60, so
+  it isn't pending content); **Guise of the Deceiver** has no documented source of any kind;
+  **Manastone** has only "no confirmed sightings" with its source still listed. The doc had
+  flattened all three into one phrase and stated the Manastone case more strongly than the
+  source supports. What remains is now tracked as two narrower questions above.
 - **Exaltation extraction threshold** (2026-08-01). It's per *effect type*, not one number,
   which is why sources appeared to disagree: **Focus +1, Click +2, Worn +3, Proc +4**, per
   the [Exaltations page](https://eqlwiki.com/Exaltations). Also documented there: an
