@@ -161,8 +161,9 @@ This is a reference someone reads while playing, so:
   zone ranges — the wiki's "Level of Monsters" is Crushbone 5–20, Blackburrow 4–15+, Befallen
   7–25+, RunnyEye Citadel 7–30+, Najena 8–35, Splitpaw Lair 20–40, Lower Guk 30–50+, The Hole
   39–56 — and Splitpaw's "fast/middle/deep bands" are not a real thing (its camps are Double
-  Doors, Executioner/Judges, Ishva). Also: **Master Yael is Raid Instance Only**, so the
-  Earthshaker is not campable at all. **Note one regression I introduced and then fixed:** the
+  Doors, Executioner/Judges, Ishva). Also: **Master Yael is Raid Instance Only** — which is a
+  content-type flag, not a gate, since EQL raid instances can be soloed (see Context); it just
+  means the Earthshaker isn't obtainable by camping the open zone. **Note one regression I introduced and then fixed:** the
   previous commit changed "Runny Eye Citadel" to "Clan Runnyeye" on the strength of an item
   page using the old name — the zone's current name is **RunnyEye Citadel**. When an item page
   and a zone page disagree on a zone's name, the zone page wins.
@@ -231,3 +232,9 @@ Game mechanics that shape which items matter, for anyone picking this up cold:
   destination must share a class with your build or the mote is lost.
 - **Difficulty tiers** (D0–D4) don't change loot tables, they change merge value:
   D0=1, D1=2, D2=4, D3=8, D4=16 points toward +10.
+- **Raid instances can be soloed.** EQL is built so raid content is reachable without a raid
+  force, so a "Raid Instance Only" flag on a mob is *not* a reason to exclude an item or to
+  describe it as group-gated. It means the mob doesn't spawn in the open zone — you enter an
+  instance, at a difficulty you choose. Don't write "not a solo camp" or "needs a raid" about
+  planar and raid-instance drops. (This is game design the wiki's Game Mechanics page doesn't
+  cover; it came from the repo owner.)
