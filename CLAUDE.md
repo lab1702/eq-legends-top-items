@@ -230,8 +230,19 @@ Game mechanics that shape which items matter, for anyone picking this up cold:
 - **Exaltation:** level an item, extract its click/proc/focus effect, socket it into a
   different item. Makes otherwise-mediocre items valuable as donors. Both donor and
   destination must share a class with your build or the mote is lost.
-- **Difficulty tiers** (D0–D4) don't change loot tables, they change merge value:
-  D0=1, D1=2, D2=4, D3=8, D4=16 points toward +10.
+- **Difficulty tiers** (D0–D4, named Awakened/Adaptive/Fused/Refined for D1–D4) set the
+  **starting tier of what drops** — an item-level modifier of +0/+1/+2/+3/+4 on armour,
+  weapons, jewelry and motes, plus a chance of random upgrades above that. They don't change
+  which items can drop, but they do change the level of what you get.
+- **Merge experience is a function of an item's tier, not of the difficulty it dropped at.**
+  "Gear provides experience equivalent to the experience needed to reach that gear's Tier
+  Level," doubling per tier: tier 1 = 2, tier 2 = 4, tier 3 = 8, tier 4 = 16. So a D4 drop is
+  worth ~16 D0 drops *because it arrives at tier 4*, and a D0 item you levelled to +4 yourself
+  is worth exactly the same. **The earlier version of this file attributed the doubling to
+  difficulty directly, which was wrong** — right numbers, wrong cause, and the cause is the
+  actionable part.
+- 11 tiers (0–10), each a cumulative +10% to stats; weapon damage rises only +5% per tier and
+  delay never improves. Motes of Potential "are not ideal and have special rules."
 - **Raid instances can be soloed.** EQL is built so raid content is reachable without a raid
   force, so a "Raid Instance Only" flag on a mob is *not* a reason to exclude an item or to
   describe it as group-gated. It means the mob doesn't spawn in the open zone — you enter an
