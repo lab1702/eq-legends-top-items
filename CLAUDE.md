@@ -93,6 +93,9 @@ This is a reference someone reads while playing, so:
 
 1. [EQL Wiki](https://eqlwiki.com) — item stat blocks, quest walkthroughs. Explicitly in
    BETA; some "no longer drops" flags are inherited from classic EQ and may be wrong.
+1b. [eqlwiki.com/Clickies](https://eqlwiki.com/Clickies) — the specific page behind the
+   Instant-Clicky Tricks section; global cooldown, gem-slot rules, per-use-case timings. Easy
+   to miss because it isn't linked from the item pages.
 2. [EQ Legends Tools](https://eqlegendstools.com) — searchable clicky/focus/proc database,
    curated and updated on a stated bi-weekly cadence. **Renders its tables client-side, so
    fetching the URL returns nothing** — this one needs a human with a browser.
