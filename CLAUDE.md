@@ -11,24 +11,9 @@ page with a live filter.
 | `eqlegends-recommended-items.md` | **Source of truth.** Edit this and nothing else. |
 | `rebuild.py` | Regenerates the HTML from the markdown. |
 | `eqlegends-recommended-items.html` | Generated, but **committed** — it's the deployable artifact. Dark EQ-tooltip theme, live filter, mobile cards. |
-| `requirements.txt` | Python dependencies for `rebuild.py`. |
 | `README.md` | Repo landing page. Hand-written — not generated. |
 | `LICENSE` | MIT — covers the code. |
 | `LICENSE-DOCS.md` | CC BY 4.0 — covers the reference content. |
-
-**Always work in a virtual environment** — never install into the system Python. Create it
-once, then activate it in every new shell before rebuilding:
-
-```bash
-python3 -m venv .venv
-```
-
-Activate with `source .venv/bin/activate` (macOS/Linux) or `.venv\Scripts\Activate.ps1`
-(Windows PowerShell), then install:
-
-```bash
-python3 -m pip install -r requirements.txt
-```
 
 Rebuild with:
 
@@ -36,9 +21,18 @@ Rebuild with:
 python3 rebuild.py eqlegends-recommended-items.md
 ```
 
-`rebuild.py` is standard-library only — no third-party packages and no external binaries.
-`requirements.txt` is deliberately empty of packages; use it (and the venv) so the setup
-stays the same if a dependency shows up later.
+`rebuild.py` is standard-library only — no third-party packages and no external binaries, so
+there's nothing to install.
+
+**If a dependency ever does show up, work in a virtual environment** — never install into the
+system Python:
+
+```bash
+python3 -m venv .venv
+```
+
+Activate with `source .venv/bin/activate` (macOS/Linux) or `.venv\Scripts\Activate.ps1`
+(Windows PowerShell). `.venv/` is already gitignored.
 
 Don't hand-edit the .html — it gets overwritten. The .html is tracked in git so it can be
 dropped straight onto a static host, so **rebuild and commit it in the same commit as any

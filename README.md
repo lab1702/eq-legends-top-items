@@ -34,15 +34,8 @@ The markdown renders fine on GitHub too, if you just want to read it in place:
 
 ## Rebuilding
 
-`rebuild.py` is standard-library only — nothing to install. The virtual environment and
-`requirements.txt` are there so the workflow stays put if a dependency ever shows up.
-
-```bash
-python3 -m venv .venv
-```
-
-Activate with `source .venv/bin/activate` (macOS/Linux) or `.venv\Scripts\Activate.ps1`
-(Windows PowerShell), then:
+`rebuild.py` is standard-library only — no dependencies, nothing to install. Any Python 3
+will do:
 
 ```bash
 python3 rebuild.py eqlegends-recommended-items.md
