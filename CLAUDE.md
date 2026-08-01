@@ -153,6 +153,15 @@ This is a reference someone reads while playing, so:
 
 ### Resolved
 
+- **Full name audit — all 39 items checked against the wiki** (2026-08-01). Findings, because
+  the *rate* matters more than the individual fixes: **7 item names wrong, 6 mob names wrong,
+  2 zones wrong, 6 stat blocks wrong**, across roughly a third of the document. One entry was
+  wholly fabricated (see below). Everything is now the wiki's spelling. **Standing rule from
+  this: verify the name against `eqlwiki.com` before adding any row.** A misspelled item or mob
+  sends a reader hunting something that doesn't exist and looks like a dead camp, which is
+  worse than omitting the row. Where a community detail survives without wiki support — the
+  Slave Trammels +2 behaviour, the Kitchen Toolbelt's ~20% scaling, various spawn percentages —
+  it is now labelled as community-only in the row rather than stated flatly.
 - **"Rune Totem Staff off Kerak Splitpaw" doesn't exist** (2026-08-01). Removed. Five checks
   all came back empty: item page 404, mob page 404, no Kerak among the named mobs on the
   Splitpaw Lair page, no staff in Verishe Mal Executioner's loot table, and no site-search hit
