@@ -225,8 +225,21 @@ Game mechanics that shape which items matter, for anyone picking this up cold:
   under that umbrella, e.g. **The Sword of Nobility**, the Ghoulbane quest route. Confirmed in
   era: the Journeyman's Boots quest, Lynuga's Gem Collection.
 
-- Characters run **up to three simultaneous classes**; an item is usable if any of the three
-  qualifies. This is why class restrictions matter less than in classic EQ.
+- Characters run **up to three simultaneous classes** — wiki-confirmed: "a character can be a
+  combination of up to three classes," all three "simultaneously gain benefits like attributes,
+  skills, and spells."
+- **"An item is usable if any of the three qualifies" is NOT wiki-documented.** Checked
+  Character Classes, New Player Guide, Newbie Guide, Build Guides, Exaltations — none states
+  it. It's a reasonable inference and matches community usage, but every "one bard in the trio
+  is enough" note in the doc rests on it, so don't present it as documented.
+- **Two of the three class slots are re-arrangeable, and that's the real reason class
+  restrictions bind loosely.** Classes level with you to 10, where you pick the tertiary; "at
+  level 11, you must commit to a race, deity, and Primary class." After 11, **secondary and
+  tertiary classes can be changed freely**; race and primary cannot, "until unlocked through
+  achievements." **Loadouts** are saved race/multi-class presets, swappable only **in cities and
+  adjacent newbie areas** — planning done before travelling, not mid-dungeon.
+- Item pages still list **race** restrictions (e.g. the Sporali blade excludes BAR/ELF), so
+  don't assume races are unrestricted just because the guides stress class flexibility.
 - **Exaltation:** level an item, extract its click/proc/worn/focus effect, socket it into a
   different item. Makes otherwise-mediocre items valuable as donors. Extraction thresholds are
   per effect type: **Focus +1, Click +2, Worn +3, Proc +4**. An Exaltation keeps its source
