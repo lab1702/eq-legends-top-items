@@ -227,9 +227,21 @@ Game mechanics that shape which items matter, for anyone picking this up cold:
 
 - Characters run **up to three simultaneous classes**; an item is usable if any of the three
   qualifies. This is why class restrictions matter less than in classic EQ.
-- **Exaltation:** level an item, extract its click/proc/focus effect, socket it into a
-  different item. Makes otherwise-mediocre items valuable as donors. Both donor and
-  destination must share a class with your build or the mote is lost.
+- **Exaltation:** level an item, extract its click/proc/worn/focus effect, socket it into a
+  different item. Makes otherwise-mediocre items valuable as donors. Extraction thresholds are
+  per effect type: **Focus +1, Click +2, Worn +3, Proc +4**. An Exaltation keeps its source
+  item's slot restriction, and the destination's usable classes narrow to the overlap.
+  **Class overlap is a precondition for insertion, not a penalty** — without it you can't
+  socket it; nothing is destroyed. Earlier versions of this file said "the mote is lost,"
+  which was wrong twice over: nothing is lost, and no mote is involved. **Exaltations are
+  removable and re-socketable** ("you can always move it back"), so extraction is not a
+  one-way commitment; the only cost is that the source item loses the effect while it's
+  elsewhere. Whether you must be able to *equip* the donor is community-only — undocumented.
+- **Motes of Potential are a separate system from Exaltation** — upgrade currency for items
+  and spells, not effect transfer. Ten ranks worth 1–10 exp; motes can't add exp to an item
+  above a certain tier, but any tier works on any spell. Void-Touched motes raise a tier
+  outright, three per week from raids. The Mote Guide's own advice: "upgrading items is best
+  done by farming duplicates. Motes are best used for spells."
 - **Difficulty tiers** (D0–D4, named Awakened/Adaptive/Fused/Refined for D1–D4) set the
   **starting tier of what drops** — an item-level modifier of +0/+1/+2/+3/+4 on armour,
   weapons, jewelry and motes, plus a chance of random upgrades above that. They don't change

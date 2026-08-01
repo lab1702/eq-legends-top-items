@@ -8,7 +8,11 @@
 
 ## Why people chase these
 
-EQL's **Exaltation** system is the reason this list looks the way it does. You can level an item (+1 through +10), then extract its click, proc, or focus effect and socket it into a different item you actually want to wear. So a mediocre wand with a great click is worth farming purely as a donor. Two rules trip people up: you must be able to *equip* the donor item with one of your three classes, and both the donor and destination need to share a class or the mote is wasted.
+EQL's **Exaltation** system is the reason this list looks the way it does. You can level an item, then extract its click, proc, worn, or focus effect and socket it into a different item you actually want to wear. So a mediocre wand with a great click is worth farming purely as a donor.
+
+**Two corrections to what this document used to say here, because both were discouraging.** It claimed the donor and destination "need to share a class or **the mote is wasted**." Per the [Exaltations page](https://eqlwiki.com/Exaltations), nothing is wasted: class overlap is a *precondition for insertion* — without it you simply can't socket the Exaltation — and no mote is involved in socketing at all (motes are a separate upgrade currency, see below). It also implied extraction is a one-shot commitment. It isn't: **Exaltations are removable and re-socketable.** You "can either leave the Exaltation in that item, or remove it and place it into the corresponding slot on a completely different item," and you can "always move it back." Experimenting is cheap.
+
+What extraction *does* cost you is the effect on the original: "the original item loses the transferred effect when you move it to another item." The source item survives — it just goes quiet. (The further claim that you must be able to *equip* the donor with one of your three classes is community-only; the wiki doesn't address it either way.)
 
 **How far you have to level a donor depends on the effect type, not on the item.** The [Exaltations wiki page](https://eqlwiki.com/Exaltations) gives four separate thresholds — a **focus** effect comes out at **+1**, a **click** at **+2**, a **worn** effect at **+3**, and a **proc** at **+4**.
 
@@ -25,7 +29,13 @@ The old version of this section said difficulty "changes merge value," with D0 =
 
 Put together, a D4 drop *is* worth roughly sixteen D0 drops — but because it arrives at tier 4, not because D4 confers a multiplier. **The practical difference:** a D0 item you have levelled to +4 yourself is worth exactly as much as a freshly looted D4 one, so difficulty buys you the levelling you'd otherwise grind, and nothing more. (Note the wiki documents the doubling from tier 1 upward; treating an unlevelled tier-0 item as "1" is a reasonable reading but isn't stated.)
 
-Also worth knowing when planning: there are **11 tiers, 0 through 10**, each a cumulative **+10% to stats** — but weapon *damage* only rises **+5% per tier**, and weapon delay never improves. And **Motes of Potential "are not ideal and have special rules,"** so don't assume a mote substitutes cleanly for a duplicate item.
+Also worth knowing when planning: there are **11 tiers, 0 through 10**, each a cumulative **+10% to stats** — but weapon *damage* only rises **+5% per tier**, and weapon delay never improves.
+
+### Motes are not Exaltations
+
+Worth separating, because this document used to run the two together. **Motes of Potential are upgrade currency** — "used to upgrade items and upgrade spells" — with nothing to do with extracting or socketing effects. Ten ranks, giving **1 exp at the lowest through 10 at the highest**, and two limits that matter: **"motes cannot add exp to an item above a certain tier,"** while **"motes of any tier can be used to upgrade a spell of any tier."** **Void-Touched** motes behave differently again — they "always raise the tier of the item or spell to the next tier" outright rather than granting exp, and you can earn only **three a week from raids**.
+
+Which leads to the [Mote Guide's](https://eqlwiki.com/Mote_Guide) own recommendation, and it cuts against how motes usually get talked about: **"upgrading items is best done by farming duplicates. Motes are best used for spells."** If you're sinking motes into gear, you're probably spending them in the wrong place.
 
 On loot tables: the wiki doesn't say difficulty changes which items can drop, so the old "doesn't change the loot table" line stands — but it does change the *level* of what drops, which is not the same as nothing.
 
@@ -141,6 +151,7 @@ The reason so many instant clickies show up on best-in-slot lists isn't the effe
 - **Three different sites call themselves the EQL wiki** — `eqlwiki.com`, `eqlegends.wiki`, and `everquestlegends.wiki`. Only the first is the one this document treats as tier 1. The others appear to be content farms that recycle each other, so agreement between them is not independent confirmation of anything.
 - **Beta wiped July 21**, so everything above is a launch target, not something people currently have banked.
 - **Procs were broken through most of beta** and got fixed July 14. The widely-repeated "Ignite lands small, ~8 a hit" figure is **probably an artifact of how it was measured.** The [wiki](https://eqlwiki.com/Ignite) lists Ignite at **38 (L8) to 46 (L16)**, resist type Fire, and the scaling caps at L16 — so a level-40 character should see ~46, not 8. The one parse behind the low number was taken on a **Lord Nagafen** kill, i.e. a fire proc against a level-55 fire dragon, which is close to the worst possible target for it. Note the wiki does *not* actually document Nagafen's fire resistance (the "fire and magic resists mean everything" line on his page is about *your* resists surviving Lava Breath), so this is a strong hypothesis rather than a confirmed one. Either way, don't treat 8 as Ignite's damage — it needs one parse against an ordinary non-fire mob.
-- **Motes stopped being tradable July 14** — everyone farms their own.
+- **Motes stopped being tradable July 14** — everyone farms their own. (Not stated on the Mote Guide page, so this rests on patch-note and community reporting rather than the item docs.)
+- **The Exaltation rules in this document were wrong in a way that discouraged use, until 2026-08-01.** It said a class mismatch meant "the mote is wasted." In fact class overlap is simply a precondition for socketing, nothing is destroyed, no mote is involved, and Exaltations can be pulled back out and moved again at will. If you avoided experimenting because of this doc, you were avoiding a cost that doesn't exist.
 - Rule of thumb for all of it: **D0/D1 for leveling, D4 for farming**, non-respawning instance for a clean clear. That still holds under the corrected difficulty mechanic — D4 for farming because drops arrive pre-levelled at +4, not because of a merge multiplier.
 - **The difficulty-tier explanation in this document was wrong until 2026-08-01** and is worth re-reading if you learned it here: difficulty sets a dropped item's *starting tier*, and merge experience derives from tier. The old text said difficulty changed merge value directly. The arithmetic came out the same, so nothing downstream was miscalculated, but the reasoning led somewhere false — it implied a D4 drop was categorically better than a levelled D0 one, when they're equivalent.
