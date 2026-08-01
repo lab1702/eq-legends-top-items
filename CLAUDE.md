@@ -94,7 +94,8 @@ This is a reference someone reads while playing, so:
 1. [EQL Wiki](https://eqlwiki.com) — item stat blocks, quest walkthroughs. Explicitly in
    BETA; some "no longer drops" flags are inherited from classic EQ and may be wrong.
 2. [EQ Legends Tools](https://eqlegendstools.com) — searchable clicky/focus/proc database,
-   curated and updated on a stated bi-weekly cadence.
+   curated and updated on a stated bi-weekly cadence. **Renders its tables client-side, so
+   fetching the URL returns nothing** — this one needs a human with a browser.
 3. [EverQuest Guides farm list](https://www.everquestguides.com) — the best community
    camp-by-camp source; beta-era, so treat drop locations as strong leads.
 4. [EQProgression](https://www.eqprogression.com/legends/exaltations/) — mechanics-focused,
@@ -129,8 +130,14 @@ This is a reference someone reads while playing, so:
   not dropped, not sold, no quest, not crafted. Either it's genuinely unobtainable in EQL or
   the page is incomplete. Also **its class restriction is contested** — wiki says BRD/ROG,
   community describes the all-class pre-nerf version.
-- **Ignite proc damage.** One parse (level-40 Nagafen kill, 8 procs, 64 damage) is the only
-  data point. Weak, and no wiki will settle it — this needs someone to post a log.
+- **Ignite proc damage — needs one parse against a non-fire mob.** Narrowed (2026-08-01). The
+  wiki lists Ignite at **38 (L8) to 46 (L16)**, resist type Fire, capping at L16 — so the
+  circulating "~8 a hit" figure conflicts with the documented value by ~5x. The single parse
+  behind it was a Lord Nagafen kill: a fire proc into a level-55 fire dragon. Caveat on the
+  explanation — the wiki does *not* document Nagafen's fire resistance, and the "fire and magic
+  resists mean everything" line on his page refers to the *player's* resists against Lava
+  Breath. So resist-on-target is a hypothesis, and one that leans on classic-EQ intuition,
+  which is the exact trap flagged above. Any ordinary mob parse settles it.
 
 ### Resolved
 
